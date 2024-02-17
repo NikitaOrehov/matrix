@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    int size, answer = 0;
+    int size, answer = 0, error;
     cout<<"Enter size matrix"<<endl;
     cin>>size;
     double** matrix = create_matrix(size);
@@ -25,12 +25,21 @@ int main(){
     }
     cout<<endl;
     print_matrix(matrix, size);
-    GAUSE_straight(matrix, size);
+    error = GAUSE_straight(matrix, size);
+    if (error == 1){
+        cout<<"Matrix error";
+        return 0;
+    }
     cout<<"Triangular view:";
     cout<<endl;
     print_matrix(matrix, size);
     double* vector = GAUSE_reverse(matrix, size);
     cout<<"answer vector: "<<endl;
     print_vector(vector, size);
+    delete [] vector;//удаление матрицы
+    for (int i = 0; i < size; i++){
+        delete [] matrix[i];
+    }
+    delete [] matrix;
     return 0;
 }

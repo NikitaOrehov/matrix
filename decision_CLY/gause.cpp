@@ -1,6 +1,6 @@
 #include <iostream>
 
-void swap_lens(double** matrix, int size, int i){
+int swap_lens(double** matrix, int size, int i){
     int temp;
     for (int j = i + 1; j < size; j++){
         if (matrix[j][i] == 0) continue;
@@ -9,17 +9,19 @@ void swap_lens(double** matrix, int size, int i){
             matrix[i][z] = matrix[j][z];
             matrix[j][z] = temp;
         }
-        break;
+        return 0;
     }
+    return 1;
 }
 
 
-void GAUSE_straight(double** matrix, int size){
-    int number2 = 0;
+int GAUSE_straight(double** matrix, int size){
+    int number2 = 0, error = 0;
     for (int i = 0; i < size; i++){
         if (matrix[i][i] != 1){
             if (matrix[i][i] == 0){
-                swap_lens(matrix, size, i);
+                error = swap_lens(matrix, size, i);
+                if (error == 1) return 1;
             }
             number2 = matrix[i][i];
             for (int j = 0; j < size + 1; j++){
@@ -35,6 +37,7 @@ void GAUSE_straight(double** matrix, int size){
             }
         }
     }
+    return 0;
 }
 
 double* GAUSE_reverse(double** matrix, int size){
