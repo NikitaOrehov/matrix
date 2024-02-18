@@ -18,7 +18,7 @@ void random_generation_matrix(double** matrix, int size){
     std::uniform_int_distribution<std::mt19937::result_type>dist;
     for (int i = 0; i < size; i++){
         for(int j = 0; j < size + 1; j++){
-            matrix[i][j] = dist(gen);
+            matrix[i][j] = (int)(dist(gen) / 10000000);
         }
     }
 }
@@ -31,3 +31,4 @@ void enter_matrix(double** matrix, int size){
         }
     }
 }
+

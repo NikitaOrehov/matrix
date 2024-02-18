@@ -25,6 +25,22 @@ int main(){
     }
     cout<<endl;
     print_matrix(matrix, size);
+    while(1){
+        cout<<"do you want change CLY?   yes(1)    no(0)"<<endl;
+        cin>>answer;
+        if (answer == 1){
+            cout<<"Enter row, col, number"<<endl;
+            int row, col;
+            double number;
+            cin>>row;
+            cin>>col;
+            cin>>number;
+            matrix[row - 1][col - 1] = number;
+            print_matrix(matrix, size);
+            cout<<endl;
+        }
+        else break;
+    }
     error = GAUSE_straight(matrix, size);
     if (error == 1){
         cout<<"Matrix error";
