@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 int swap_lens(double** matrix, int size, int i){
     int temp;
@@ -60,6 +61,6 @@ void check_answer(double** matrix, double* vector, int size){
         for (int j = 0; j < size; j++){
             number += (vector[j] * matrix[i][j]);
         }
-        std::cout<<matrix[i][size] - number<<std::endl;
+        std::cout<<fabs(matrix[i][size]) - fabs(number)<<std::endl;
     }
 }

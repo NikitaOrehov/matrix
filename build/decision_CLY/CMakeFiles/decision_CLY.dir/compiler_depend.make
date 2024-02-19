@@ -183,8 +183,61 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
   /usr/include/c++/12/bits/basic_ios.tcc \
   /usr/include/c++/12/bits/ostream.tcc \
   /usr/include/c++/12/istream \
-  /usr/include/c++/12/bits/istream.tcc
+  /usr/include/c++/12/bits/istream.tcc \
+  /usr/include/c++/12/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/12/bits/specfun.h \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/tr1/gamma.tcc \
+  /usr/include/c++/12/tr1/special_function_util.h \
+  /usr/include/c++/12/tr1/bessel_function.tcc \
+  /usr/include/c++/12/tr1/beta_function.tcc \
+  /usr/include/c++/12/tr1/ell_integral.tcc \
+  /usr/include/c++/12/tr1/exp_integral.tcc \
+  /usr/include/c++/12/tr1/hypergeometric.tcc \
+  /usr/include/c++/12/tr1/legendre_function.tcc \
+  /usr/include/c++/12/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/12/tr1/poly_hermite.tcc \
+  /usr/include/c++/12/tr1/poly_laguerre.tcc \
+  /usr/include/c++/12/tr1/riemann_zeta.tcc
 
+
+/usr/include/c++/12/tr1/riemann_zeta.tcc:
+
+/usr/include/c++/12/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/12/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/12/tr1/legendre_function.tcc:
+
+/usr/include/c++/12/tr1/hypergeometric.tcc:
+
+/usr/include/c++/12/tr1/ell_integral.tcc:
+
+/usr/include/c++/12/tr1/bessel_function.tcc:
+
+/usr/include/c++/12/tr1/gamma.tcc:
+
+/usr/include/c++/12/limits:
+
+/usr/include/c++/12/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
 /usr/include/c++/12/bits/basic_ios.tcc:
 
@@ -207,6 +260,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 /usr/include/c++/12/bits/basic_string.tcc:
 
 /usr/include/c++/12/bits/charconv.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -258,6 +313,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
+/usr/include/c++/12/tr1/exp_integral.tcc:
+
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
 
 /usr/include/c++/12/bits/char_traits.h:
@@ -281,6 +338,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 /usr/include/c++/12/bits/exception_defines.h:
 
 /usr/include/c++/12/bits/locale_classes.h:
+
+/usr/include/c++/12/tr1/poly_hermite.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
@@ -306,6 +365,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 
 /usr/include/c++/12/new:
 
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
 /usr/include/c++/12/exception:
 
 /usr/include/c++/12/bits/std_abs.h:
@@ -323,6 +384,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/12/type_traits:
+
+/usr/include/c++/12/tr1/beta_function.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h:
 
@@ -356,7 +419,11 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
 /usr/include/c++/12/bits/stl_pair.h:
+
+/usr/include/c++/12/cmath:
 
 /usr/include/features.h:
 
@@ -374,6 +441,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 
 ../decision_CLY/gause.cpp:
 
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
 /usr/include/c++/12/cstdint:
 
 /usr/include/c++/12/clocale:
@@ -383,6 +452,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h:
 
 /usr/include/pthread.h:
+
+/usr/include/c++/12/tr1/special_function_util.h:
 
 /usr/include/c++/12/ostream:
 
@@ -403,6 +474,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/c++/12/iosfwd:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/12/bits/memoryfwd.h:
 
@@ -527,6 +600,8 @@ decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.o: ../decision_CLY/gause.cpp 
 /usr/include/c++/12/debug/debug.h:
 
 /usr/include/c++/12/bits/stl_function.h:
+
+/usr/include/math.h:
 
 /usr/include/c++/12/pstl/pstl_config.h:
 
