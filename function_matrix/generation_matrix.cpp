@@ -1,6 +1,5 @@
-#include <iostream> //два раза подключается?
 #include <random>
-
+#include <iostream>
 using namespace std;
 
 

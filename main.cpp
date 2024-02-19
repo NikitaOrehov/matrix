@@ -1,7 +1,6 @@
-#include <iostream>
 #include "header.h"
 #include "head.h"
-
+#include <iostream>
 using namespace std;
 
 int main(){
@@ -52,6 +51,7 @@ int main(){
     double* vector = GAUSE_reverse(matrix, size);
     cout<<"answer vector: "<<endl;
     print_vector(vector, size);
+    check_answer(matrix, vector, size);
     delete [] vector;//удаление матрицы
     for (int i = 0; i < size; i++){
         delete [] matrix[i];

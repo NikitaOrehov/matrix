@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdecision_CLY.a CMakeFiles/decision_CLY.dir/gause.cpp.o
+/usr/bin/ranlib libdecision_CLY.a

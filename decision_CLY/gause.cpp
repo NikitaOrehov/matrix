@@ -51,3 +51,15 @@ double* GAUSE_reverse(double** matrix, int size){
     }
     return vector;
 }
+
+void check_answer(double** matrix, double* vector, int size){
+    std::cout<<std::endl;
+    std::cout<<"pogreshnoct"<<std::endl;
+    for (int i = 0; i < size; i++){
+        double number = 0;
+        for (int j = 0; j < size; j++){
+            number += (vector[j] * matrix[i][j]);
+        }
+        std::cout<<matrix[i][size] - number<<std::endl;
+    }
+}
