@@ -248,15 +248,6 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-function_BINARY_DIR:STATIC=C:/Users/User/Project/matrix/build/function_matrix
-
-//Value Computed by CMake
-function_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-function_SOURCE_DIR:STATIC=C:/Users/User/Project/matrix/function_matrix
-
-//Value Computed by CMake
 function_matrix_BINARY_DIR:STATIC=C:/Users/User/Project/matrix/build/function_matrix
 
 //Value Computed by CMake

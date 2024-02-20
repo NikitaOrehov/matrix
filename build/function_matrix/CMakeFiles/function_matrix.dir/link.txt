@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfunction_matrix.a CMakeFiles/function_matrix.dir/generation_matrix.cpp.o CMakeFiles/function_matrix.dir/print_matrix.cpp.o
+/usr/bin/ranlib libfunction_matrix.a

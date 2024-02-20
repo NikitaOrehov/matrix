@@ -1318,42 +1318,6 @@
 			"value" : "TRUE"
 		},
 		{
-			"name" : "function_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/User/Project/matrix/build/function_matrix"
-		},
-		{
-			"name" : "function_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "OFF"
-		},
-		{
-			"name" : "function_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/User/Project/matrix/function_matrix"
-		},
-		{
 			"name" : "function_matrix_BINARY_DIR",
 			"properties" : 
 			[

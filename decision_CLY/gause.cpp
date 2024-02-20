@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 int swap_lens(double** matrix, int size, int i){
     int temp;
@@ -16,7 +17,7 @@ int swap_lens(double** matrix, int size, int i){
 
 
 int GAUSE_straight(double** matrix, int size){
-    int number2 = 0, error = 0;
+    double number2 = 0, error = 0;
     for (int i = 0; i < size; i++){
         if (matrix[i][i] != 1){
             if (matrix[i][i] == 0){
@@ -50,4 +51,19 @@ double* GAUSE_reverse(double** matrix, int size){
         }
     }
     return vector;
+}
+
+void check_answer(double** matrix, double* vector, int size){
+    std::cout<<std::endl;
+    std::cout<<"pogreshnoct"<<std::endl;
+    for (int i = 0; i < size; i++){
+        double number = 0;
+        for (int j = 0; j < size; j++){
+            number += (vector[j] * matrix[i][j]);
+        }
+        double a = fabs(matrix[i][size]);
+        double b = fabs(number);
+        double answer = matrix[i][size] - number;
+        std::cout<<fabs(matrix[i][size]) - fabs(number)<<std::endl;
+    }
 }

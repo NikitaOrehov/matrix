@@ -1,7 +1,6 @@
-#include <iostream>
 #include "header.h"
 #include "head.h"
-
+#include <iostream>
 using namespace std;
 
 int main(){
@@ -9,6 +8,7 @@ int main(){
     cout<<"Enter size matrix"<<endl;
     cin>>size;
     double** matrix = create_matrix(size);
+    double** matrix_origin = create_matrix(size);
     while(1){    
         cout<<"Enter CLY(1) or random generation(2)"<<endl;
         cin>>answer;
@@ -25,6 +25,11 @@ int main(){
     }
     cout<<endl;
     print_matrix(matrix, size);
+    for (int i = 0; i < size; i++){//копирование матрицы
+        for (int j = 0; j <= size; j++){
+            matrix_origin[i][j] = matrix[i][j];
+        }
+    }
     while(1){
         cout<<"do you want change CLY?   yes(1)    no(0)"<<endl;
         cin>>answer;
@@ -52,6 +57,7 @@ int main(){
     double* vector = GAUSE_reverse(matrix, size);
     cout<<"answer vector: "<<endl;
     print_vector(vector, size);
+    check_answer(matrix_origin, vector, size);
     delete [] vector;//удаление матрицы
     for (int i = 0; i < size; i++){
         delete [] matrix[i];

@@ -1,12 +1,8 @@
 # ninja log v5
-23	540	7297350728548314	function_matrix/CMakeFiles/function.dir/print_matrix.cpp.obj	f7d97a291e73d513
-22	504	7298213280451203	decision_CLY/CMakeFiles/decision_CLY.dir/gause_straight.cpp.obj	31f9e583753d880e
-15	514	7299942772641488	CMakeFiles/main.dir/main.cpp.obj	59b15a0deae903c0
-44	904	7297347514292537	function_matrix/CMakeFiles/function.dir/generation_matrix.cpp.obj	203640104d03bfb
-26	150	7297350795287905	function_matrix/libfunction.a	7acf48842810bd0a
-861	957	7299941313778297	function_matrix/libfunction_matrix.a	e70a6ee15eed35b8
-31	574	7299141143037449	function_matrix/CMakeFiles/function_matrix.dir/print_matrix.cpp.obj	128348a9c2d2e95e
-515	654	7299942773987812	main.exe	dc76dcaaa2c0f506
-27	861	7299941312813738	function_matrix/CMakeFiles/function_matrix.dir/generation_matrix.cpp.obj	ae8397b99ef636ce
-26	536	7299148179522321	decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.obj	8bcc69203c30ac1
-536	632	7299148180477193	decision_CLY/libdecision_CLY.a	5e035c31e4e4ccfd
+21	590	7301203040923254	CMakeFiles/main.dir/main.cpp.obj	59b15a0deae903c0
+898	993	7301203044982381	function_matrix/libfunction_matrix.a	e70a6ee15eed35b8
+1041	1163	7301509235815579	decision_CLY/libdecision_CLY.a	5e035c31e4e4ccfd
+27	558	7301203040594129	function_matrix/CMakeFiles/function_matrix.dir/print_matrix.cpp.obj	128348a9c2d2e95e
+1163	1432	7301509238421005	main.exe	dc76dcaaa2c0f506
+24	898	7301203044024942	function_matrix/CMakeFiles/function_matrix.dir/generation_matrix.cpp.obj	ae8397b99ef636ce
+44	1040	7301509234533565	decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.obj	8bcc69203c30ac1
