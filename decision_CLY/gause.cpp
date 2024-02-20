@@ -61,9 +61,6 @@ void check_answer(double** matrix, double* vector, int size){
         for (int j = 0; j < size; j++){
             number += (vector[j] * matrix[i][j]);
         }
-        double a = fabs(matrix[i][size]);
-        double b = fabs(number);
-        double answer = matrix[i][size] - number;
         std::cout<<fabs(matrix[i][size]) - fabs(number)<<std::endl;
     }
 }

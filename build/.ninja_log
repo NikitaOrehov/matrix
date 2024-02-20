@@ -6,3 +6,7 @@
 1163	1432	7301509238421005	main.exe	dc76dcaaa2c0f506
 24	898	7301203044024942	function_matrix/CMakeFiles/function_matrix.dir/generation_matrix.cpp.obj	ae8397b99ef636ce
 44	1040	7301509234533565	decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.obj	8bcc69203c30ac1
+42	1702	7301667599428047	CMakeFiles/main.dir/main.cpp.obj	59b15a0deae903c0
+73	1908	7301667601549541	decision_CLY/CMakeFiles/decision_CLY.dir/gause.cpp.obj	8bcc69203c30ac1
+1908	2047	7301667602912542	decision_CLY/libdecision_CLY.a	5e035c31e4e4ccfd
+2047	2340	7301667605762615	main.exe	dc76dcaaa2c0f506
