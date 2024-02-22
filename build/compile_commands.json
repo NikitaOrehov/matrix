@@ -1,26 +1,22 @@
 [
 {
-  "directory": "C:/Users/User/Project/matrix/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Project/matrix/function_matrix -IC:/Users/User/Project/matrix/decision_CLY -g -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\User\\Project\\matrix\\main.cpp",
-  "file": "C:\\Users\\User\\Project\\matrix\\main.cpp",
-  "output": "CMakeFiles\\main.dir\\main.cpp.obj"
+  "directory": "/home/s23380409@unn.global/project/c++/matrix/build",
+  "command": "/usr/bin/g++-12  -I/home/s23380409@unn.global/project/c++/matrix/function_matrix -I/home/s23380409@unn.global/project/c++/matrix/decision_CLY -g -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380409@unn.global/project/c++/matrix/main.cpp",
+  "file": "/home/s23380409@unn.global/project/c++/matrix/main.cpp"
 },
 {
-  "directory": "C:/Users/User/Project/matrix/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Project/matrix/function_matrix -g -o function_matrix\\CMakeFiles\\function_matrix.dir\\generation_matrix.cpp.obj -c C:\\Users\\User\\Project\\matrix\\function_matrix\\generation_matrix.cpp",
-  "file": "C:\\Users\\User\\Project\\matrix\\function_matrix\\generation_matrix.cpp",
-  "output": "function_matrix\\CMakeFiles\\function_matrix.dir\\generation_matrix.cpp.obj"
+  "directory": "/home/s23380409@unn.global/project/c++/matrix/build/function_matrix",
+  "command": "/usr/bin/g++-12  -I/home/s23380409@unn.global/project/c++/matrix/function_matrix -g -o CMakeFiles/function_matrix.dir/generation_matrix.cpp.o -c /home/s23380409@unn.global/project/c++/matrix/function_matrix/generation_matrix.cpp",
+  "file": "/home/s23380409@unn.global/project/c++/matrix/function_matrix/generation_matrix.cpp"
 },
 {
-  "directory": "C:/Users/User/Project/matrix/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Project/matrix/function_matrix -g -o function_matrix\\CMakeFiles\\function_matrix.dir\\print_matrix.cpp.obj -c C:\\Users\\User\\Project\\matrix\\function_matrix\\print_matrix.cpp",
-  "file": "C:\\Users\\User\\Project\\matrix\\function_matrix\\print_matrix.cpp",
-  "output": "function_matrix\\CMakeFiles\\function_matrix.dir\\print_matrix.cpp.obj"
+  "directory": "/home/s23380409@unn.global/project/c++/matrix/build/function_matrix",
+  "command": "/usr/bin/g++-12  -I/home/s23380409@unn.global/project/c++/matrix/function_matrix -g -o CMakeFiles/function_matrix.dir/print_matrix.cpp.o -c /home/s23380409@unn.global/project/c++/matrix/function_matrix/print_matrix.cpp",
+  "file": "/home/s23380409@unn.global/project/c++/matrix/function_matrix/print_matrix.cpp"
 },
 {
-  "directory": "C:/Users/User/Project/matrix/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Users/User/Project/matrix/function_matrix -IC:/Users/User/Project/matrix/decision_CLY -g -o decision_CLY\\CMakeFiles\\decision_CLY.dir\\gause.cpp.obj -c C:\\Users\\User\\Project\\matrix\\decision_CLY\\gause.cpp",
-  "file": "C:\\Users\\User\\Project\\matrix\\decision_CLY\\gause.cpp",
-  "output": "decision_CLY\\CMakeFiles\\decision_CLY.dir\\gause.cpp.obj"
+  "directory": "/home/s23380409@unn.global/project/c++/matrix/build/decision_CLY",
+  "command": "/usr/bin/g++-12  -I/home/s23380409@unn.global/project/c++/matrix/function_matrix -I/home/s23380409@unn.global/project/c++/matrix/decision_CLY -g -o CMakeFiles/decision_CLY.dir/gause.cpp.o -c /home/s23380409@unn.global/project/c++/matrix/decision_CLY/gause.cpp",
+  "file": "/home/s23380409@unn.global/project/c++/matrix/decision_CLY/gause.cpp"
 }
 ]

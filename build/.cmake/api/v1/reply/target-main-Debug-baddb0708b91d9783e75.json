@@ -2,10 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "main.exe"
-		},
-		{
-			"path" : "main.pdb"
+			"path" : "main"
 		}
 	],
 	"backtrace" : 1,
@@ -65,11 +62,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/User/Project/matrix/function_matrix"
+					"path" : "/home/s23380409@unn.global/project/c++/matrix/function_matrix"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/User/Project/matrix/decision_CLY"
+					"path" : "/home/s23380409@unn.global/project/c++/matrix/decision_CLY"
 				}
 			],
 			"language" : "CXX",
@@ -105,23 +102,19 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "function_matrix\\libfunction_matrix.a",
+				"fragment" : "function_matrix/libfunction_matrix.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "decision_CLY\\libdecision_CLY.a",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"fragment" : "decision_CLY/libdecision_CLY.a",
 				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "main",
-	"nameOnDisk" : "main.exe",
+	"nameOnDisk" : "main",
 	"paths" : 
 	{
 		"build" : ".",

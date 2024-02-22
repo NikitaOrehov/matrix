@@ -3,7 +3,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "function_matrix/libfunction_matrix.a"
+			"path" : "decision_CLY/libdecision_CLY.a"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"function_matrix/CMakeLists.txt",
+			"decision_CLY/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -38,6 +38,12 @@
 				"file" : 1,
 				"line" : 5,
 				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 2
 			}
 		]
 	},
@@ -54,24 +60,27 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/User/Project/matrix/function_matrix"
+					"path" : "/home/s23380409@unn.global/project/c++/matrix/function_matrix"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/s23380409@unn.global/project/c++/matrix/decision_CLY"
 				}
 			],
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
-	"id" : "function_matrix::@170211f4f19f196d1b03",
-	"name" : "function_matrix",
-	"nameOnDisk" : "libfunction_matrix.a",
+	"id" : "decision_CLY::@82a1e42a4f38f017fa3f",
+	"name" : "decision_CLY",
+	"nameOnDisk" : "libdecision_CLY.a",
 	"paths" : 
 	{
-		"build" : "function_matrix",
-		"source" : "function_matrix"
+		"build" : "decision_CLY",
+		"source" : "decision_CLY"
 	},
 	"sourceGroups" : 
 	[
@@ -79,8 +88,7 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0,
-				1
+				0
 			]
 		}
 	],
@@ -89,13 +97,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "function_matrix/generation_matrix.cpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "function_matrix/print_matrix.cpp",
+			"path" : "decision_CLY/gause.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
